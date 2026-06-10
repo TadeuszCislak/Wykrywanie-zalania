@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb4186df-bb13-470b-8f3a-d169a3a3f0c3" name="Changes" comment="Project building.">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datasets/flood_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visualisation/show_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Wykrywanie-zalania.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Wykrywanie-zalania.iml" afterDir="false" />
+    <list default="true" id="cb4186df-bb13-470b-8f3a-d169a3a3f0c3" name="Changes" comment="Structural update.">
+      <change afterPath="$PROJECT_DIR$/src/models/unet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datasets/flood_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datasets/flood_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/visualization/show_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/visualization/show_image.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,11 +87,20 @@
       <option name="project" value="LOCAL" />
       <updated>1781025771506</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Structural update.">
+      <option name="closed" value="true" />
+      <created>1781103553648</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1781103553649</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project building." />
-    <option name="LAST_COMMIT_MESSAGE" value="Project building." />
+    <MESSAGE value="Structural update." />
+    <option name="LAST_COMMIT_MESSAGE" value="Structural update." />
   </component>
 </project>
