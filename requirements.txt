@@ -1,0 +1,17 @@
+torch
+torchvision
+torchaudio
+numpy
+pandas
+matplotlib
+scikit-learn
+scikit-image
+opencv-python
+albumentations
+tqdm
+rasterio
+geopandas
+shap
+captum
+segmentation-models-pytorch
+jupyter

@@ -1,0 +1,11 @@
+.idea/
+**pycache**/
+*.pyc
+
+data/raw/
+results/checkpoints/
+
+venv/
+.env
+
+.ipynb_checkpoints/

@@ -1,16 +1,24 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+from src.datasets.flood_dataset import FloodDataset
+from src.visualization.show_image import display_image
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def main():
+    dataset = FloodDataset("data/raw/sentinel2")
+
+    print(f"Liczba znalezionych obrazów: {len(dataset)}")
+
+    if len(dataset) == 0:
+        print("Brak obrazów w katalogu.")
+        return
+
+    image, path = dataset[0]
+
+    print(f"Wyświetlanie: {path}")
+
+    display_image(image, title=path.name)
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+if __name__ == "__main__":
+    main()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
