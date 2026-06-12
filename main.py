@@ -1,5 +1,6 @@
 from src.datasets.flood_dataset import FloodDataset
 from src.visualization.show_image import display_image
+from src.training.train import train
 
 
 def main():
@@ -20,5 +21,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+    train()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
